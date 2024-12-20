@@ -42,13 +42,11 @@ public class bank_acc_management {
 
             switch(user) {
                 case 1:
-                    Checkbalance checkbalance = new Checkbalance();
-                    int balance = checkbalance.balance(exisiting_amt);
+                    int balance = Checkbalance.balance(exisiting_amt);
                     System.out.println("Balance in your account: " + balance);
                     break;
 
                 case 2:
-                    Withdraw_money withdrawMoney = new Withdraw_money();
                     System.out.println("Enter amount to withdraw: ");
                     int to_withdraw = scanner.nextInt();
                     scanner.nextLine();
@@ -56,7 +54,7 @@ public class bank_acc_management {
                     if (to_withdraw > exisiting_amt) {
                         System.out.println("You don't have sufficient balance, Please enter a Smaller amount!");
                     } else {
-                        amt_drawn = withdrawMoney.take_out(to_withdraw, exisiting_amt);
+                        amt_drawn = Withdraw_money.take_out(to_withdraw, exisiting_amt);
                         System.out.println("Amount withdrawn: " + to_withdraw);
                         System.out.println("Current Balance: " + amt_drawn);
                     }
@@ -67,8 +65,7 @@ public class bank_acc_management {
                     System.out.println("Enter a amount to deposit: ");
                     int to_put = scanner.nextInt();
                     scanner.nextLine();
-                    Deposit_money depositMoney = new Deposit_money();
-                    int pass_amt = depositMoney.take_in(to_put,exisiting_amt);
+                    int pass_amt = Deposit_money.take_in(to_put,exisiting_amt);
                     System.out.println("Current Balance: " + pass_amt);
                     exisiting_amt = pass_amt;
                     break;
