@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class prime_within_range {
     public static void main(String[] args) {
-        boolean flag = true;
+
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter a start range: ");
         int start = scanner.nextInt();
@@ -12,22 +12,15 @@ public class prime_within_range {
         scanner.nextLine();
 
         for (int i = start; i <= end; i++) {
-            if (i==1){
-                flag = false;
-
-            } else if (i>1) {
-                for (int j = start; j <=end ; j++) {
-                    if (i%j==0){
-                        flag=false;
+            for (int j = start; j <=end ; j++) {
+                if (i==1){
+                    continue;
+                }else if (i%j==0){
+                    continue;
                 }else {
-                        flag = true;
-                    }
-            }
-        }
-            if (flag==true){
-                System.out.println("Prime");
-            }else{
-                System.out.println("Not prime");
+                    System.out.println(i);
+                }
+
             }
         }
     }
