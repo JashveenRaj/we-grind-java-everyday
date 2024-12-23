@@ -29,6 +29,7 @@ public class bank_acc_management {
             Scanner scanner = new Scanner(System.in);
             System.out.println("===============================");
             System.out.println("Choose an operation: ");
+            System.out.println("0.Deposit Limit");
             System.out.println("1.Check balance");
             System.out.println("2.Withdraw Money");
             System.out.println("3.Deposit Money");

@@ -26,15 +26,5 @@ public class prime_within_range {
         System.out.println("Enter a end range: ");
         int end = scanner.nextInt();
         scanner.nextLine();
-
-        for (int i = start; i < end ; i++) {
-            for (int j = start; j < end ; j++) {
-                if (i%j==0){
-
-                }else{
-                    System.out.println(i);
-                }
-            }
-        }
     }
 }
