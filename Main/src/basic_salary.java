@@ -11,8 +11,8 @@ class gross{
             System.out.println(gross_salary2);
         }
         else{
-            int gross_salary2 = bs + (((bs/30)*100) + ((bs/30)*100));
-            System.out.println(gross_salary2);
+            int gross_salary3 = bs + (((bs/30)*100) + ((bs/30)*100));
+            System.out.println(gross_salary3);
         }
     }
 }
