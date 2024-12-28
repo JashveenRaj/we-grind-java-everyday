@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 class calculate{
-    public static void efficiency(String n , int wt){
+    public static void efficiency(String n , double wt){
         if (wt>=2 && wt<=3){
             System.out.println("Hello " + n + ". your efficiency is high. Continue your work");
         } else if (wt>3 && wt<=4 ) {
@@ -21,9 +21,10 @@ public class employee_efficiency {
         System.out.println("Enter your name: ");
         String name = scanner.nextLine();
         System.out.println("Enter time you've taken to complete the assigned task: ");
-        int work_time = scanner.nextInt();
+        double work_time = scanner.nextDouble();
         scanner.nextLine();
 
         calculate.efficiency(name , work_time);
+        scanner.close();
     }
 }
