@@ -18,7 +18,7 @@ class nirmala{
         }else if(income>5_00_000 && income<=10_00_000){
             System.out.println("You need to pay an tax amount of: Rs. " + (income/100)*20 + " . ");
         } else if (income>10_00_000) {
-            System.out.println("You need to pay an tax amount of: Rs. " + (income/100)*30 + ". And an additional surcharge of: " + (income/100)*10);
+            System.out.println("You need to pay an tax amount of: Rs. " + (income/100)*30 + ". And an additional surcharge of: " + (income*10)/100);
         }
     }
 }
