@@ -7,7 +7,7 @@ import java.util.Scanner;
 class winner{
     public static void who(char user1 , char user2){
         if(Character.toLowerCase(user1) == 'r' && Character.toLowerCase(user2) == 'p'){
-
+            System.out.println("User");
         }
     }
 }
