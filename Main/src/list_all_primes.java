@@ -6,10 +6,8 @@ public class list_all_primes {
         int n = scanner.nextInt();
 
         for (int i = 1; i <= n; i++) {
-            for (int j = 1 ; j <=n ; j++) {
-                if(i*j==n){
-                    System.out.println(i);
-                }
+            if(n%i==0){
+                System.out.println(i);
             }
         }
     }
