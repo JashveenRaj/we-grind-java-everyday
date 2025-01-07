@@ -57,7 +57,7 @@ public class simple_calc{
 
             switch (n) {
                 case 1:
-                    SUM calcSUM = new SUM(); // object calling add method
+                    SUM calcSUM = new SUM(); // object calling adds method
                     int result1 = calcSUM.add(a, b);
                     System.out.println("Added value: " + result1);
                     break;

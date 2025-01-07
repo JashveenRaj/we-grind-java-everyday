@@ -4,7 +4,7 @@
 //₹2,50,001–₹5,00,000: 5%.
 //₹5,00,001–₹10,00,000: 20%.
 //Above ₹10,00,000: 30%.
-//Additionally, if the income is above ₹10,00,000, add a
+//Additionally, if the income is above ₹10,00,000, adds a
 //surcharge of 10%.
 
 import java.util.Scanner;
