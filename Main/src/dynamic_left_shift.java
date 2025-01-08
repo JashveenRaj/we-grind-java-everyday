@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.Scanner;
 
 class dynamic2{
@@ -20,10 +21,7 @@ public class dynamic_left_shift {
         System.out.print("Enter no of places you want to shift: ");
         int no_of_rotations = scanner.nextInt();
         int[] result = dynamic2.left_shift(a, no_of_rotations);
-
-        System.out.print("Shifted array: ");
-        for(int i : result){
-            System.out.print(i + " ");
-        }
+        System.out.print("Shifted Array (toString way): ");
+        System.out.print(Arrays.toString(result));
     }
 }
