@@ -117,7 +117,7 @@ class reversingarr{
 //    }
 //}
 
-public class max_element_in_array {
+public class finding_in_array {
     public static void main(String[] args) {
         int[] arr = {-1, 5, 6, 9, -3, -9, 7, 3, -52};
         int result1 = max.element_in_array(arr);
