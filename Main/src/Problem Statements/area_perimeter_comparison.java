@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class rectangle{
+class rectanglee {
     public static int perimeter(int l, int b){
         int peri = 2*(l+b);
         return peri;
@@ -18,8 +18,8 @@ public class area_perimeter_comparison {
         int length = scanner.nextInt();
         System.out.println("Enter breadth: ");
         int breadth = scanner.nextInt();
-        int per = rectangle.perimeter(length,breadth);
-        int are = rectangle.area(length,breadth);
+        int per = rectanglee.perimeter(length,breadth);
+        int are = rectanglee.area(length,breadth);
 
         if(are>per){
             System.out.println("Area is greater than perimeter");

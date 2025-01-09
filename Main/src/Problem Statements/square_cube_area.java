@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class square{
+class squaree {
     public static int sqr(int a){
         //Calculate square
         return a*a;
@@ -32,7 +32,7 @@ public class square_cube_area {
         System.out.println();
 
         //Pass values
-        int square_res = square.sqr(num);
+        int square_res = squaree.sqr(num);
         int cube_res = cubed.cube(num);
         double area_res = circle.area(num);
 
