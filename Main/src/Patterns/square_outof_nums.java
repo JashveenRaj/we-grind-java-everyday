@@ -1,3 +1,5 @@
+package Patterns;
+
 import java.util.Scanner;
 
 public class square_outof_nums {

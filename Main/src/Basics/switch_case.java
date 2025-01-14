@@ -1,3 +1,5 @@
+package Basics;
+
 public class switch_case {
     public static void main(String[] args) {
         int n=2;

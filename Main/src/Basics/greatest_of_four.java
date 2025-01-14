@@ -1,3 +1,5 @@
+package Basics;
+
 public class greatest_of_four {
     public static void main(String[] args) {
         // Declare 4 numbers

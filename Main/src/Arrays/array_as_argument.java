@@ -1,3 +1,5 @@
+package Arrays;
+
 class adds {
     public static void array(int[] arr1 , int[] arr2){
         int[] sum = new int[arr1.length+arr2.length];

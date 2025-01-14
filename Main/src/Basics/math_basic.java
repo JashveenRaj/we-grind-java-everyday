@@ -1,3 +1,5 @@
+package Basics;
+
 public class math_basic {
     public static void main(String[] args) {
         int num = 10;

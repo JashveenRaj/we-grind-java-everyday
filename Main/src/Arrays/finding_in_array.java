@@ -1,3 +1,5 @@
+package Arrays;
+
 class max {
     public static int element_in_array(int[] array) {
         int max = array[0];

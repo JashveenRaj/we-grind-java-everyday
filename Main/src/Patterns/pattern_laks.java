@@ -1,3 +1,5 @@
+package Patterns;
+
 public class pattern_laks {
     public static void main(String[] args) {
         int a = 5;

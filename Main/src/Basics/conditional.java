@@ -1,3 +1,5 @@
+package Basics;
+
 public class conditional {
     public static void main(String[]args){
         System.out.println(true?"true":"false");

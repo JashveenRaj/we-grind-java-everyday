@@ -1,3 +1,5 @@
+package Basics;
+
 import java.util.Scanner;
 
 class eve_or_odd{

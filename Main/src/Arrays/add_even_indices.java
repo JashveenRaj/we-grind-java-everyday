@@ -1,3 +1,5 @@
+package Arrays;
+
 class arr {
     public static double sum_of_arr(int[] arr) {
         int sum = 0;

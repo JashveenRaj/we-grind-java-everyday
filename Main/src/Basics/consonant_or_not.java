@@ -1,3 +1,5 @@
+package Basics;
+
 import java.util.* ;
 
 public class consonant_or_not {

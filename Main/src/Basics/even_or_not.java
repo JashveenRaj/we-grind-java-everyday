@@ -1,3 +1,5 @@
+package Basics;
+
 public class even_or_not {
     public static void main (String[]args){
         int num = 3;

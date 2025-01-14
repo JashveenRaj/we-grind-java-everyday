@@ -1,3 +1,5 @@
+package Arrays;
+
 class right2{
     public static int[] shifter2(int[] array){
         int temp1 = array[array.length-1];

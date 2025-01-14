@@ -1,3 +1,5 @@
+package Patterns;
+
 public class rectangle_diagonal {
     public static void main(String[] args) {
         int n = 5;

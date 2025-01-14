@@ -1,3 +1,5 @@
+package Basics;
+
 import java.util.Scanner;
 
 public class even_and_positive {

@@ -1,3 +1,5 @@
+package Basics;
+
 public class more_formatting {
     public static void main(String[] args) {
         System.out.printf("Integer: %d%n", 123); // Integer: 123

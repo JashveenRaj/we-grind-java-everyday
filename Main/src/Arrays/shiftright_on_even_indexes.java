@@ -1,3 +1,5 @@
+package Arrays;
+
 class shiftright{
     public static int[] foreven(int[] array){
         for (int i = array.length-1 ; i > 1; i--) {
