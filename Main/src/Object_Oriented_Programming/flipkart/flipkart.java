@@ -56,10 +56,5 @@ public class flipkart {
             default:
                 System.out.println("Enter valid option");
         }
-
-
-
-
-
     }
 }
