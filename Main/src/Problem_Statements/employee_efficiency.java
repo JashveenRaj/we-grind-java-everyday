@@ -4,13 +4,13 @@ import java.util.Scanner;
 class calculate{
     public static void efficiency(String n , double wt){
         if (wt>=2 && wt<=3){
-            System.out.println("Hello " + n + ". your efficiency is high. Continue your work");
+            System.out.println("laks " + n + ". your efficiency is high. Continue your work");
         } else if (wt>3 && wt<=4 ) {
-            System.out.println("Hello " + n + ". Kindly, Improve your efficiency");
+            System.out.println("laks " + n + ". Kindly, Improve your efficiency");
         } else if (wt>4 && wt<=5) {
-            System.out.println("Hello " + n + ". You're assigned for our employee training programme");
+            System.out.println("laks " + n + ". You're assigned for our employee training programme");
         }else{
-            System.out.println("Hello " + n + ". Just leave the company bro");
+            System.out.println("laks " + n + ". Just leave the company bro");
         }
     }
 }

@@ -34,7 +34,7 @@ public class bank_acc_management {
         scanner.nextLine();
 
         if (code == pass){
-            System.out.println("Hello Lakshmipathi Ramesh");
+            System.out.println("laks Lakshmipathi Ramesh");
             while(true){
                 //Get user input
                 System.out.println("===============================");

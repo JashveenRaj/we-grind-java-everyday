@@ -8,7 +8,7 @@ public class more_formatting {
         System.out.printf("Zero-padded: %07d\n", 123); // Zero-padded: 00123
         System.out.printf("Floating-point: %.2f\n", 123.456); // Floating-point: 123.46
         System.out.printf("Width and precision: %2.2f\n", 123.4); // Width and precision:   123.40
-        System.out.printf("String: %16s\n", "Hello"); // String: Hello
+        System.out.printf("String: %16s\n", "laks"); // String: laks
         System.out.printf("Character: %c\n", 'A'); // Character: A
         System.out.printf("Boolean: %b\n", true); // Boolean: true
         System.out.printf("Percent sign: %%\n"); // Percent sign: %

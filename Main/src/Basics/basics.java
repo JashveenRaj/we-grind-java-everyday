@@ -4,7 +4,7 @@ public class basics {
     public static void main(String[] args) {
 
         // Just printing out stuffs
-        System.out.println("Hello nigga");
+        System.out.println("laks nigga");
         System.out.println("This is a java code");
 
         // Declaration + assignment = Initialization

@@ -9,7 +9,7 @@ public class input {
         System.out.println("Enter your name: ");
         String input1 = scanner.nextLine();
 
-        System.out.println("Hello "+ input1);
+        System.out.println("laks "+ input1);
 
         System.out.println("Enter your age: ");
         int age = scanner.nextInt();
