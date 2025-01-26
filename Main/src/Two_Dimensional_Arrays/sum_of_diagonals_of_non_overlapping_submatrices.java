@@ -59,7 +59,7 @@ public class sum_of_diagonals_of_non_overlapping_submatrices {
         int sum4 = 0;
 
         //For Matrix of Unequal Rows and Columns
-        if(R%2!=0 && C%2!=0) {
+        if(R!=C) {
             //Left Matrix
             for (int i = 0; i < M.length - (R - N); i++) {
                 for (int j = 0; j < M[i].length - (C - N); j++) {
