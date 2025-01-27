@@ -2,7 +2,7 @@ package Arrays;
 
 import java.util.Scanner;
 
-public class find_meadian_of_array {
+public class find_median_of_array {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
