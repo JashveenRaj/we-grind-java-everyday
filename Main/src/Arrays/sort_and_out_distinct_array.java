@@ -1,8 +1,10 @@
 package Arrays;
+import java.util.Arrays;
 import java.util.Scanner;
 
-public class unique_element {
+public class sort_and_out_distinct_array {
     public static void main(String[] args) {
+
         //Takes Input
         Scanner sc = new Scanner(System.in);
         int size = sc.nextInt();
@@ -22,21 +24,29 @@ public class unique_element {
             }
         }
 
+        // Counts no of repetitions
         //Changes elements to 0 if repeated more than once
+        int count = 0;
         for (int i = 0; i < a.length; i++) {
             for (int j = i+1; j < a.length; j++) {
                 if(a[i] == a[j]){
+                    count++;
                     a[i] = 0;
                 }
             }
         }
 
-        //Prints Non-Zero Elements Remaining in the Array
-        System.out.println("Output: ");
+        //Creates new array to store non-repeating elements
+        int[] b = new int[a.length-count];
+        int index = 0;
         for (int i = 0; i < a.length; i++) {
             if (a[i] != 0) {
-                System.out.println(a[i]);
+                b[index] = a[i];
+                index++;
             }
         }
+
+        //Print output
+        System.out.println(Arrays.toString(b));
     }
 }
