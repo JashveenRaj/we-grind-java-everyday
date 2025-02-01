@@ -24,8 +24,8 @@ public class frequent_than_average {
             }
         }
 
-        int count = 0;
         int element = 0;
+        int count = 0;
         for (int i = 0; i < a.length; i++) { //1,1,2,1,3,5,1
             for (int j = i+1; j < a.length ; j++) {
                 if(a[i] == a[j] && a[i]!=0){
@@ -36,7 +36,7 @@ public class frequent_than_average {
                 if(count+1>=avg){
                     element = a[i];
                 }
-                count = 0;
+            count = 0;
             }
         }
         System.out.println(element);
