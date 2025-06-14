@@ -27,13 +27,14 @@ public class comparable {
     public static void main(String[] args) {
         Book b1 = new Book("asf" , 100);
         Book b2 = new Book("chi", 546);
+        System.out.println(b1.compareTo(b2));
+
         Book[] b = new Book[4];
         b[0]=new Book("titanic",200);
         b[1]=new Book("raja",999);
         b[2]=new Book("rani",3000);
         b[3]=new Book("tirudhan",152);
 
-        System.out.println(b1.compareTo(b2));
 
         Arrays.sort(b);
         for (int i = 0; i < b.length; i++) {
