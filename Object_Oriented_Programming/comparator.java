@@ -13,8 +13,8 @@ class Phone {
 
 class PriceComp implements Comparator {
     public int compare(Object o1, Object o2) {
-        Phone p1 = (Phone)o1;
-        Phone p2 = (Phone)o2;
+        Phone_p p1 = (Phone_p)o1;
+        Phone_p p2 = (Phone_p)o2;
         if (p1.price > p2.price) {
             return 1;
         } else if (p1.price < p2.price) {
@@ -28,8 +28,9 @@ class PriceComp implements Comparator {
 
 public class comparator{
     public static void main(String[] args) {
-        Phone p1 = new Phone("Iphone",100000);
-        Phone p2 = new Phone("One Plus", 100000);
+        Phone_p p1 = new Phone_p("Iphone",100000);
+        Phone_p p2 = new Phone_p("One Plus", 100000);
         System.out.println(new PriceComp().compare(p1,p2));
+
     }
 }

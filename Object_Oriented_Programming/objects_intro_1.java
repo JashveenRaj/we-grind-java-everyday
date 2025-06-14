@@ -6,8 +6,8 @@
 //}
 //public class objects_intro_1 {
 //    public static void main(String[] args) {
-//        Phone phn1 , phn2, phn3;
-//        phn1 = new Phone();
+//        Phone_p phn1 , phn2, phn3;
+//        phn1 = new Phone_p();
 //        phn2 = phn1;
 //        phn2.price = 500;
 //        phn3 = phn2;
