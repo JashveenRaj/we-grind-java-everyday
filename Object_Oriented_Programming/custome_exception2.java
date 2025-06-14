@@ -1,17 +1,18 @@
 package Object_Oriented_Programming;
+
 import java.util.Scanner;
 
-class NotEligible extends RuntimeException{
-    NotEligible(String msg){
+class NotValid extends RuntimeException{
+    NotValid(String msg){
         System.out.println(msg);
     }
 }
-public class custom_exception {
+public class custome_exception2 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        int age = scanner.nextInt();
-        if(age<18){
-            throw new NotEligible("Sappu");
+        int inp = scanner.nextInt();
+        if(inp<=0){
+            throw new NotValid("Pichakara koodhi");
         }
     }
 }
