@@ -28,9 +28,9 @@ public class roman_to_int {
         int out = 0;
 
         for(int i = 0 ; i< input.length() ; i++){
-            char c = (char) convert.conv(input.charAt(i));
+            int c =  convert.conv(input.charAt(i));
             if(i+1<input.length()){
-                char c1 = (char) convert.conv(input.charAt(i+1));
+                int c1 = convert.conv(input.charAt(i+1));
                 if (c1 > c) {
                     out += c1 - c;
                     i++;
