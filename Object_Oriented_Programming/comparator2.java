@@ -13,7 +13,7 @@ class Phone_p {
 
 class BrandComp implements Comparator<Phone_p> {
     public int compare(Phone_p p1, Phone_p p2) {
-        return p1.name.compareTo(p2.name);
+        return p1.name.compareToIgnoreCase(p2.name);
     }
 }
 
@@ -22,7 +22,7 @@ public class comparator2 {
        Phone_p[] phones = new Phone_p[3];
        phones[0] = new Phone_p("Iphone", 20000);
        phones[1] = new Phone_p("Samsung" , 154466);
-       phones[2] = new Phone_p("Moto" , 78634);
+       phones[2] = new Phone_p("moto" , 78634);
 
         Arrays.sort(phones, new BrandComp());
 

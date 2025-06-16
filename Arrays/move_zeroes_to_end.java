@@ -9,8 +9,6 @@ class move{
             if (i != 0) {
                 newarr[index] = i;
                 index++;
-            } else {
-                newarr[newarr.length - 1] = i;
             }
         }
         return newarr;
