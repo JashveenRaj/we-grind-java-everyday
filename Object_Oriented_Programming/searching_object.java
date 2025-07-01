@@ -14,7 +14,7 @@ class Student {
 
     @Override
     public String toString(){
-        return "name: " + name + " sid: " + sid + " blood: " + blood;
+        return "name: " + name + " ,sid: " + sid + " ,blood: " + blood;
     }
 
     @Override
@@ -31,8 +31,8 @@ public class searching_object{
         arrayList.add(new Student("Suresh" , 102 , "A+ve") );
         arrayList.add(new Student("Rajesh" , 103 , "O-ve") );
 
-        for (int i = 0; i < arrayList.size(); i++) {
-            System.out.println(arrayList.get(i));
+        for (Object student : arrayList) {
+            System.out.println(student);
         }
 
         Student searchStudent = new Student("Ramesh", 101, "O+ve");
