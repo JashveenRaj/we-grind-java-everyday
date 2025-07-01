@@ -1,7 +1,6 @@
-package DataStructures.ArrayList;
-
+package DataStructures.HashSet;
+import java.util.*;
 import java.util.HashSet;
-import java.util.Objects;
 
 class Student{
     String name;
@@ -28,7 +27,7 @@ class Student{
 
 public class custom_object_hashset {
     public static void main(String[] args) {
-        HashSet<Student> hashSet = new HashSet<>();
+        java.util.HashSet<Student> hashSet = new HashSet<>();
         hashSet.add(new Student("Jash" , 101));
         hashSet.add(new Student("Jash" , 101));
         System.out.println(hashSet);

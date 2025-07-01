@@ -1,4 +1,4 @@
-package DataStructures;
+package DataStructures.HashSet;
 import java.util.TreeSet;
 
 public class Tree_set {
