@@ -1,9 +1,8 @@
-package HashMaps;
+package Interfaces.lambda;
 import java.util.*;
 
-public class basics_of_hashmaps {
+public class lambda_sample_6 {
     public static void main(String[] args) {
-        HashMap<Integer,Integer> count = new HashMap<>();
         HashMap<Integer, String> h = new HashMap<>();
         h.put(1,"Jash");
         h.put(2,"Lakshmi");
