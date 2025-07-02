@@ -1,4 +1,4 @@
-package Interfaces;
+package Interfaces.lambda;
 
 interface sample{
     void start();

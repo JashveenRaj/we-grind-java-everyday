@@ -11,7 +11,7 @@ class suma implements calc{
         return a+b;
     }
 }
-public class interface_sample2  {
+public class interface_sample  {
     public static void main(String[] args) {
         suma suma = new suma();
         System.out.println(suma.add(5,10));

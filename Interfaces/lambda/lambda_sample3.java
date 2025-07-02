@@ -1,4 +1,4 @@
-package Interfaces;
+package Interfaces.lambda;
 
 interface animal{
     void make_sound();
