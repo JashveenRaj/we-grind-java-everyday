@@ -7,7 +7,7 @@ class Kadane {
         int max_sum = Integer.MIN_VALUE;
 
         for(int i = 0 ; i<arr.length ; i++){
-            if(curr_sum+arr[i]>arr[i]){
+            if((curr_sum+arr[i])>arr[i]){
                 curr_sum+=arr[i];
             }else{
                 curr_sum=arr[i];
