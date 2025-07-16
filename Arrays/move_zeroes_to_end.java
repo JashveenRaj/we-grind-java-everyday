@@ -3,15 +3,16 @@ import java.util.Arrays;
 
 class move{
     public static int[] zero(int[] array){
-        int[] newarr = new int[array.length];
-        int index = 0;
-        for (int i : array) {
-            if (i != 0) {
-                newarr[index] = i;
-                index++;
+        for (int i = 0; i < array.length-1; i++) {
+            for (int j = i+1; j < array.length; j++) {
+                if(array[i]==0){
+                    int temp = array[i];
+                    array[i] = array[j];
+                    array[j] = temp;
+                }
             }
         }
-        return newarr;
+        return array;
     }
 }
 
