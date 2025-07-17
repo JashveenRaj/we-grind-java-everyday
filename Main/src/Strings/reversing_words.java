@@ -19,7 +19,7 @@ class reverse{
 
 public class reversing_words {
     public static void main(String[] args) {
-        String user = "v f gfc";
+        String user = "Jashveen raj";
         String result = reverse.word(user);
         System.out.print((result));
     }

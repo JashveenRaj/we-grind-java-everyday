@@ -14,7 +14,7 @@ class reverse {
 
 public class reversing_an_array {
     public static void main(String[] args) {
-        int[] a = {1,2,3,4};
+        int[] a = {1,2,3,4,5,6,9,8,3,2,1,4};
         int[] result = reverse.array(a);
         System.out.println(Arrays.toString(result));
     }

@@ -1,13 +1,13 @@
 package Object_Oriented_Programming;
 
-class Book{
+class book{
     //Non-static variables (Global)
     String author;
     String name;
     int price;
 
     //User defined parameterized constructor
-    public Book(String a , String n, int p){
+    public book(String a , String n, int p){
         //Assigning values from constructor calls to the non-static global variables
         author = a;
         name = n;
@@ -18,8 +18,8 @@ class Book{
 public class constructors_intro_1 {
     public static void main(String[] args) {
         //Calling the constructor and passing values
-        Book b = new Book("Jeyamohan" , "Aram", 450);
-        Book c = new Book("Tolstoy" , "Anna Karenina" , 500);
+        book b = new book("Jeyamohan" , "Book1", 450);
+        book c = new book("Tolstoy" , "Book2", 500);
 
         //Printing
         System.out.println(b.author);
