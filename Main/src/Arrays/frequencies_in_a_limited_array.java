@@ -24,17 +24,17 @@ class Solution3 {
             l.add(entry.getValue());
         }
         return l;
-    }
+}
 }
 
 public class frequencies_in_a_limited_array {
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        int n = scanner.nextInt();
-        int[] a = new int[n];
-        for (int i = 0; i < n; i++) {
-            a[i]= scanner.nextInt();
-        }
-        System.out.println(Solution3.frequencyCount(a));
+public static void main(String[] args) {
+    Scanner scanner = new Scanner(System.in);
+    int n = scanner.nextInt();
+    int[] a = new int[n];
+    for (int i = 0; i < n; i++) {
+        a[i]= scanner.nextInt();
     }
+    System.out.println(Solution3.frequencyCount(a));
+}
 }
