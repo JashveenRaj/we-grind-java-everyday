@@ -1,9 +1,9 @@
 package Strings;
+import java.util.*;
 
-import java.util.HashSet;
-import java.util.Set;
+//The quick brown fox jumps over the dog --> False
+//The quick brown fox jumps over the lazy dog --> True
 
-//The quick brown fox jumps over the dog
 public class Panagram {
     public static void main(String[] args) {
         String s = s = "The quick brown fox jumps over the lazy dog";
