@@ -1,45 +1,32 @@
 package Strings;
 
-class convert{
-    public static int conv(char c){
-        switch(c){
-            case 'I':
-                return 1;
-            case 'V':
-                return 5;
-            case 'X':
-                return 10;
-            case 'L':
-                return 50;
-            case 'C':
-                return 100;
-            case 'D':
-                return 500;
-            case 'M':
-                return 1000;
-        }
-        return 0;
-    }
-}
+import java.util.*;
 
 public class roman_to_int {
     public static void main(String[] args) {
-        String input = "XIV";
-        int out = 0;
+        Map<Character,Integer> map = new HashMap<>();
+        map.put('I',1);
+        map.put('V',5);
+        map.put('X',10);
+        map.put('L',50);
+        map.put('C',100);
+        map.put('D',500);
+        map.put('M',1000);
 
-        for(int i = 0 ; i< input.length() ; i++){
-            int c =  convert.conv(input.charAt(i));
-            if(i+1<input.length()){
-                int c1 = convert.conv(input.charAt(i+1));
-                if (c1 > c) {
-                    out += c1 - c;
+        String num = "MCMXCIV"; //1994
+        int out = 0 ;
+        for(int i = 0 ; i<num.length() ; i++){
+            int n1 = map.get(num.charAt(i));
+            if(i+1<num.length()){
+                int n2 = map.get(num.charAt(i+1));
+                if(n2>n1){
+                    out += n2-n1;
                     i++;
-                } else {
-                    out += c;
+                }else{
+                    out+=n1;
                 }
-            }
-            else{
-                out+=c;
+            }else{
+                out+=n1;
             }
         }
         System.out.println(out);
